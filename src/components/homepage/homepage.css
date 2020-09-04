@@ -1,5 +1,8 @@
 .homepage-container {
     padding-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .glossary-board {
@@ -14,7 +17,14 @@
 
 .term {
     font-weight: bold;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+}
+
+.term:hover{
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+.term:not(:hover) {
+        transform: scale(1);
+        transition: transform .5s;
 }
