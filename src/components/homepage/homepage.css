@@ -1,0 +1,20 @@
+.homepage-container {
+    padding-top: 30px;
+}
+
+.glossary-board {
+    height: 300px;
+    background-image: linear-gradient(white, lightgrey);
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(5, 1fr);  
+    text-align: center;
+    align-items: center;
+}
+
+.term {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
