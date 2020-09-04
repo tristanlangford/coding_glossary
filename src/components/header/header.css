@@ -1,0 +1,18 @@
+.header-container {
+    background-color: #1abc9c;
+    height: 30px;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.web-title {
+    font-weight: bold;
+}
+
+.header-list {
+    padding-inline-start: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
