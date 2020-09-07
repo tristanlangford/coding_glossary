@@ -15,4 +15,9 @@
     margin: 0;
     list-style: none;
     display: inline;
+    text-decoration-style: solid;
+}
+
+.header-list a {
+    color: white;
 }

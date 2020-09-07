@@ -9,10 +9,12 @@ export default class Header extends React.Component {
     render() {
         return <div className='header-container'>
                     <ul className='header-list'>
-                        <li>
-                            <div className='web-title'>
-                                The Coding Glossary
-                            </div>
+                        <li> 
+                            <a href='/'>
+                                <div className='web-title'>
+                                    The Coding Glossary
+                                </div>
+                            </a>
                         </li>
                     </ul>
             </div>
