@@ -33,9 +33,12 @@
 .description {
     width: 80%;
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    border: solid lightgray 1px;
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
 
 .term-links {
@@ -45,4 +48,11 @@
     grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: repeat(1, 1fr); 
     grid-gap: 20px;
+    padding-bottom: 20px;
+}
+
+.description-text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }

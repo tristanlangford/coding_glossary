@@ -1,0 +1,10 @@
+.error-container {
+    text-align: center;
+}
+
+.error-message {
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    margin-top: 10%;
+}

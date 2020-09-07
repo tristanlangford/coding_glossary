@@ -1,6 +1,7 @@
 import React from 'react'
 import './term.css'
-import terms from '../../terms'
+import terms from '../../terms' 
+import Error from '../../Error'
 
 export default class Term extends React.Component {
     constructor(props) {
@@ -10,7 +11,6 @@ export default class Term extends React.Component {
     }
 
     getTerm() {
-        console.log(this.props)
         for(let i = 0; i < terms.length; i++) {
             if(terms[i].name === this.props.match.params.name) {
                 return terms[i]
@@ -27,6 +27,7 @@ export default class Term extends React.Component {
     }
 
     render() {
+        if(this.term) {
         return <div className='term-container'>
             <div className='title'>{this.term.name}</div>
             <div className='term-description'>
@@ -46,5 +47,8 @@ export default class Term extends React.Component {
                 <strong>In Lehman Terms: </strong> {this.term.lehman}
             </div>
         </div>
+        } else {
+            return <Error name={this.props.match.params.name}/>
+        }
     }
 }
