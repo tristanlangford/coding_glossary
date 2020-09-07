@@ -1,4 +1,4 @@
-export const terms = [
+const terms = [
     {
         id: 1,
         name: "Callback",
@@ -87,3 +87,5 @@ export const terms = [
         lehman: "An ID card proves that the people talking are who they are"
     },
 ]
+
+module.exports = terms

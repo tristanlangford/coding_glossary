@@ -11,7 +11,7 @@ export default class Header extends React.Component {
                     <ul className='header-list'>
                         <li>
                             <div className='web-title'>
-                                Coding Glossary
+                                The Coding Glossary
                             </div>
                         </li>
                     </ul>

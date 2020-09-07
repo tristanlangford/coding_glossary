@@ -32,4 +32,12 @@
 
 .description {
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.term-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(1, 1fr); 
+    grid-gap: 20px;
 }

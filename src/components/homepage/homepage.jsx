@@ -1,5 +1,6 @@
 import React from 'react'
-import './homepage.css'
+import './homepage.css' 
+import termsList from '../../terms'
  
 export default class Homepage extends React.Component {
     constructor () {
@@ -39,6 +40,16 @@ export default class Homepage extends React.Component {
         }
         return terms
     }
+
+    createTermLinks() {
+        var termsArray = []
+        for(let i = 0; i < termsList.length; i++) {
+            termsArray.push(
+                <a href={`/terms/:${termsList[i].name}`}>{termsList[i].name}</a>
+            )
+        }
+        return termsArray
+    }
     
     render() {
         return <div className='homepage-container'>
@@ -48,6 +59,9 @@ export default class Homepage extends React.Component {
             <div className='description'>
                 Welcome to Coding Glossary, your online classroom for learning all your techy terminology needed for your Software Engineering interview. While you can code, explaining what HTML is, Composition vs Inheritance or defining SRP can make or break your interview.
                 Use our glossary to learn what all these terms mean, why they exist, and how to explain them to Engineering lead, or non-technical interviewer.
+            </div>
+            <div className='term-links'>
+                    {this.createTermLinks()}
             </div>
         </div>
     }
