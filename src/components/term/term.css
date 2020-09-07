@@ -1,0 +1,17 @@
+.term-container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.term-description {
+    padding-bottom: 30px;
+}

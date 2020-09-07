@@ -45,7 +45,7 @@ export default class Homepage extends React.Component {
         var termsArray = []
         for(let i = 0; i < termsList.length; i++) {
             termsArray.push(
-                <a href={`/terms/:${termsList[i].name}`}>{termsList[i].name}</a>
+                <a href={`/term/${termsList[i].name}`}>{termsList[i].name}</a>
             )
         }
         return termsArray
