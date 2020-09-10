@@ -44,7 +44,7 @@ export default class Term extends React.Component {
                     </ul>
             </div>
             <div className='lehman'>
-                <strong>In Lehman Terms: </strong> {this.term.lehman}
+                <strong>In Layman Terms: </strong> {this.term.lehman}
             </div>
         </div>
         } else {

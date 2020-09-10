@@ -5,7 +5,7 @@ const terms = [
         description: "A callback is a function that is to be executed after another function (normally asynchronous) has finished executing — hence the name ‘call back’.",
         benefits: ["Allows for actions to be taken that require previous action to have been taken, and avoids the 'call back' being called too early."],
         disadvantages: ["When scaled, can lead to the code becoming hard to read, and hard to debug."],
-        lehman: "A Barista is making a coffee, they have two actions: make the coffee & serve the coffee. They don't want to serve the coffee before it's made, therefore make the serving of the coffee an action that can only be taken once the coffee is made."
+        layman: "A Barista is making a coffee, they have two actions: make the coffee & serve the coffee. They don't want to serve the coffee before it's made, therefore make the serving of the coffee an action that can only be taken once the coffee is made."
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ const terms = [
         disadvantages: [
             "Difficult to reuse code",
             "Contradicts other coding priciples such as Inheritance"],
-        lehman: ""
+        layman: ""
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ const terms = [
         disadvantages: [
             "Can lead to errors if actions require other actions to have taken place before being able to be exectued effectivley"
         ],
-        lehman: "A waiter takes an order to the kitchen. Instead of waiting for that order to be complete, they are able to take another order and the kitchen are able to handle both orders at the same time, rather than waiting for one to be complete before moving on to the next one"
+        layman: "A waiter takes an order to the kitchen. Instead of waiting for that order to be complete, they are able to take another order and the kitchen are able to handle both orders at the same time, rather than waiting for one to be complete before moving on to the next one"
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ const terms = [
         description: "Inheritance is the process of giving one or many objects/classes the same properties as a 'parent' object/class",
         benefits: ["Code is shorter and more readable", "Implementing new functionality to similar objects/classes can be done once, rather than for each"],
         disadvantages: ["Objects/classes can have unused functionality", "As an application grows, previous inheritance can become redundant and make code difficult to read"],
-        lehman: ""
+        layman: ""
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ const terms = [
         description: "The Open-close principle is the concept of whether software 'entities' should be open to extension, or closed to modification",
         benefits: [],
         disadvantages: [],
-        lehman: ""
+        layman: ""
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ const terms = [
         description: "Continuous Integration is a practice of regularly merging 'working' branches of code into the live version, rather than waiting for scheduled released dates",
         benefits: ["New features get released faster", "Increased team transparency and responsibility", "Easier maintenance/debuggin"],
         disadvantages: ["Higher chance of errors being put into production", "Requires greater business coordination inorder to be effective"],
-        lehman: ""
+        layman: ""
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ const terms = [
         description: "Polymorphism is the ability of an object to take many forms",
         benefits: ["Makes code reusable", "Single variable name can be used to store variables of multiple data types(Float, double, Long, Int etc)."],
         disadvantages: ["Reduces the readability of the program as one needs to identify the runtime behavior of the program to identify actual execution time.", "Developers find it difficult to implement polymorphism in codes."],
-        lehman: "A human can take many forms, but all will be human, and share core charecteristics (arms, face, etc.)"
+        layman: "A human can take many forms, but all will be human, and share core charecteristics (arms, face, etc.)"
     },
     {
         id: 8,
@@ -68,7 +68,7 @@ const terms = [
         description: "HTTPS is HTTP with with encryption. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL)",
         benefits: ["Ensures that the connection cannot be hacked"],
         disadvantages: [],
-        lehman: ""
+        layman: ""
     },
     {
         id: 9,
@@ -76,7 +76,7 @@ const terms = [
         description: "HTTP is an application protocol that forms the foundation for communication on the World Wide Web",
         benefits: [],
         disadvantages: [],
-        lehman: ""
+        layman: ""
     },
     {
         id: 10,
@@ -84,7 +84,7 @@ const terms = [
         description: "SSL Certificates are small data files that digitally bind a cryptographic key to an organization's details. When installed on a web server, it activates the padlock and the https protocol and allows secure connections from a web server to a browser.",
         benefits: [],
         disadvantages: [],
-        lehman: "An ID card proves that the people talking are who they are"
+        layman: "An ID card proves that the people talking are who they are"
     },
 ]
 

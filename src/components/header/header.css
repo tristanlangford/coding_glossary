@@ -1,9 +1,9 @@
 .header-container {
     background-color: #1abc9c;
-    height: 30px;
+    height: 40px;
     color: white;
     padding: 30px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .web-title {
@@ -13,11 +13,63 @@
 .header-list {
     padding-inline-start: 0;
     margin: 0;
-    list-style: none;
-    display: inline;
+    list-style-type: none;
     text-decoration-style: solid;
 }
 
 .header-list a {
     color: white;
+}
+
+.header-list li{
+    float: left;
+}
+
+.header-list .search-bar {
+    float: right;
+    right: 10px;
+    margin-left: auto;
+}
+
+.search-input {
+    background-color: #1abc9c;
+    border: none;
+    border-bottom: solid white;
+    color: white;
+    text-indent: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    max-width: 150px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-dropdown {
+    z-index: 100;
+    display: block;
+    position: absolute;
+}
+
+.search-dropdown ul {
+    list-style-type: none;
+}
+
+.search-dropdown li{
+    display: block;
+    background-color: #1abc9c;
+    color: white;
+    border: solid lightgray 2px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.search-dropdown li:hover{
+    display: block;
+    background-color: gray;
+    color: white;
+    border: solid lightgray 2px;
+    width: 80%;
+    font-size: 20px;
 }
